@@ -19,7 +19,5 @@ runs:
       shell: bash
     - run: echo "${{ github.action_path }}" >> $GITHUB_PATH
       shell: bash
-    - run: |
-        sudo chmod a+rwx goodbye.sh
-        goodbye.sh
+    - run: echo Hey arafath
       shell: bash
